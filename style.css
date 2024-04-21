@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+
+body{
+    background-color: #FAFAFA;
+    
+}
+
+.menu-container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    width: 900px;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    color: orange;
+}
+
+.home{
+    margin-left: auto;
+}
+.about,
+.contact,
+.buy,
+.user
+{
+    margin-left: 20px;
+}
+
+.logo{
+    font-size: 20px;
+    color: #F96A00;
+}
+
+.buy,
+.user{
+    color: #F96A00;
+}
+
+.header-container{
+    background-image: url(img/pexels-narda-yescas-724842-1566837\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-about{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.description-bussines{
+    width: 400px;
+}
+.description-bussines h2{
+    font-size: 40px;
+    padding-left: 8px;
+    justify-content: start;
+}
+
+.description-bussines p{
+    line-height: 1.5;
+}
+
+.img img{
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    border: none;
+    background-color: #FF6B00;
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: purple;
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+}
+
+.container-title{
+    margin-top: 120px;
+}
+
+.container-title h2{
+    font-size: 30px;
+}
+
+.choose,
+.paragraph{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.paragraph{
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+   margin-top: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: rgba(173, 172, 172, 0.35) 0px 5px 15px;
+   cursor: pointer;
+   transition: 500ms;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-header img{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+h3,
+p{
+    margin: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.price-h3{
+    font-size: 20px;
+}
+
+.order-btn{
+    width: 100px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: #F96A00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.order-btn:hover{
+    background-color: purple;
+}
+
+
+.container-footer{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: #24262B;
+    padding: 70px 0;
+    flex-wrap: wrap;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 25px;
+}
+
+.footer-links h4{
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #00c3FF;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: flex;
+    margin-bottom: 10px;
+    transition: all 400ms ease;
+    cursor: pointer;
+}
+
+.footer-links ul li a:hover{
+    color: #F96A00;
+    padding-left: 6px;
+}
+
+.social-links a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 300ms ease;
+}
+
+.social-links a:hover{
+    background-color: #00c3FF;
+}
